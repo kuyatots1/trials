@@ -1,0 +1,63 @@
+p {
+  font-size: 60px;
+  color: red;
+}
+.followbutton {
+  background-color: red;
+  color: white;
+  border: none;
+  height: 50px;
+  width: 100px;
+  border-radius: 75px;
+  cursor: pointer;
+  margin-right: 7px;
+  transition: opacity 1s;
+}
+
+.followbutton:hover {
+  opacity: 0.8;
+  background-color: lightblue;
+}
+.followbutton:active {
+  opacity: 0.5;
+}
+.followbutton:active {
+  color: blue;
+}
+
+
+.likebutton {
+  background-color: white;
+  color: blue;
+  border-width: 1px;
+  height: 50px;
+  width: 100px;
+  border-radius: 75px;
+  cursor: pointer;
+  margin-right: 7px;
+  font-weight: bolder;
+  transition: background-color 1s;
+}
+
+.likebutton:hover {
+  opacity: 0.8;
+  background-color: lightblue;
+}
+
+
+
+.messagebutton {
+  background-color: white;
+  color: blue;
+  border-width: 1px;
+  height: 50px;
+  width: 100px;
+  border-radius: 75px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: opacity 1s;
+}
+.messagebutton:hover {
+  opacity: 0.8;
+  background-color: lightblue;
+}
